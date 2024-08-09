@@ -1,0 +1,190 @@
+
+.container-side {
+    background-color: #163853;
+    float: left;
+    width: 25%;;
+    margin-left: 10%;
+    margin-bottom: 0;
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    padding-bottom: 120px;
+}
+
+.container-main {
+    color: #163853;
+    float: right;
+    width: 55%;
+    margin-right: 10%;
+    background-color: whitesmoke;
+    margin-bottom: 10px;
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.profile-img {
+    height: 10em;
+    width: 10em;
+    border-radius: 50%;
+    border: 2px solid white;
+    display: flex;
+    margin: auto;
+    margin-top: 35px;
+    margin-bottom: 15px;
+}
+
+.side-container-header-1:after {
+    content: "Contact";
+    color: white;
+    display: block;
+    margin-left: 10%;
+    width: 70%;
+    border-bottom: 1px solid white;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.side-container-header-2:after {
+    content: "Languages";
+    color: white;
+    display: block;
+    margin-left: 10%;
+    width: 70%;
+    border-bottom: 1px solid white;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.side-container-header-3:after {
+    content: "Education";
+    color: white;
+    display: block;
+    margin-left: 10%;
+    width: 70%;
+    border-bottom: 1px solid white;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.side-container-header-4:after {
+    content: "Skills";
+    color: white;
+    display: block;
+    margin-left: 10%;
+    width: 70%;
+    border-bottom: 1px solid white;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.contact {
+    color: white;
+    margin-left: 15px;
+}
+.contact-list {
+    margin-left: 10%;
+    list-style: none;
+}
+
+.languages {
+    color: white;
+    margin-left: 15px;
+}
+
+.languages-list {
+    color: white;
+    display: block;
+    list-style: circle;
+    margin-left: 15%;
+}
+
+.education {
+    color: white;
+    margin-left: 15px;
+}
+
+.education-info {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 0;
+}
+
+.education-list {
+    display: block;
+    color: white;
+    list-style: circle;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.skills {
+    color: white;
+    margin-left: 15px;
+}
+
+.skills-list {
+    display: block;
+    list-style: circle;
+    margin-left: 15%;
+    padding-bottom: 15%;
+}
+
+.links {
+    color: white;
+}
+
+.title {
+    font-weight: bold;
+    padding-top: 50px;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.heading-titles {
+    margin-left: 10%;
+    border-bottom: 1px solid black;
+    width: 80%;
+    text-align: center;
+}
+
+.projects-list {
+    width: 80%;
+}
+
+.work-experience-position-title {
+    margin-left: 12%;
+}
+
+.work-info-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    list-style: none;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.work-info-grid-item-1 {
+    list-style: none;
+}
+
+.work-info-grid-item-2 {
+    text-align: right;
+}
+
+.profile-content {
+    margin-left: 15%;
+    width: 70%;
+    text-align: center;
+}
+
+.work-description {
+    list-style: circle;
+    margin-left: 15%;
+    width: 70%;
+}
+
+.links-main {
+    color: #163853;
+}
