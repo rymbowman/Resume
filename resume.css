@@ -1,9 +1,12 @@
+.resume-container {
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
 
 .container-side {
     background-color: #163853;
-    float: left;
-    width: 25%;;
-    margin-left: 10%;
+    width: 30%;
     margin-bottom: 0;
     font-family: "EB Garamond", serif;
     font-optical-sizing: auto;
@@ -13,9 +16,7 @@
 
 .container-main {
     color: #163853;
-    float: right;
-    width: 55%;
-    margin-right: 10%;
+    width: 70%;
     background-color: whitesmoke;
     margin-bottom: 10px;
     font-family: "EB Garamond", serif;
