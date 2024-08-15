@@ -1,6 +1,6 @@
 .resume-container {
     display: flex;
-    width: 90%;
+    width: 80%;
     margin: auto;
 }
 
@@ -83,6 +83,7 @@
     color: white;
     margin-left: 15px;
 }
+
 .contact-list {
     margin-left: 10%;
     list-style: none;
