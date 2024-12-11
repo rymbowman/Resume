@@ -1,194 +1,209 @@
 .resume-container {
-    display: flex;
-    width: 80%;
-    margin: auto;
+  display: flex;
+  width: 1000px;
+  margin: auto;
+  align-items: stretch;
 }
 
 .container-side {
-    background-color: #163853;
-    width: 30%;
-    margin-bottom: 0;
-    font-family: "EB Garamond", serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    padding-bottom: 120px;
+  background-color: #163853;
+  width: 300px;
+  margin-bottom: 0;
+  font-family: "EB Garamond", serif;
+  font-style: normal;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .container-main {
-    color: #163853;
-    width: 70%;
-    background-color: whitesmoke;
-    margin-bottom: 10px;
-    font-family: "EB Garamond", serif;
-    font-optical-sizing: auto;
-    font-style: normal;
+  color: #163853;
+  width: 700px;
+  background-color: whitesmoke;
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .profile-img {
-    height: 10em;
-    width: 10em;
-    border-radius: 50%;
-    border: 2px solid white;
-    display: flex;
-    margin: auto;
-    margin-top: 35px;
-    margin-bottom: 15px;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border: 2px solid white;
+  margin-top: 35px;
+  margin-bottom: 15px;
 }
 
 .side-container-header-1:after {
-    content: "Contact";
-    color: white;
-    display: block;
-    margin-left: 10%;
-    width: 70%;
-    border-bottom: 1px solid white;
-    text-align: center;
-    padding-top: 15px;
+  content: "Contact";
+  color: white;
+  display: block;
+  width: 250px;
+  border-bottom: 1px solid white;
+  text-align: center;
+  margin: auto;
 }
 
 .side-container-header-2:after {
-    content: "Languages";
-    color: white;
-    display: block;
-    margin-left: 10%;
-    width: 70%;
-    border-bottom: 1px solid white;
-    text-align: center;
-    padding-top: 15px;
+  content: "Languages";
+  color: white;
+  display: block;
+  width: 250px;
+  border-bottom: 1px solid white;
+  text-align: center;
+  margin: auto;
 }
 
 .side-container-header-3:after {
-    content: "Education";
-    color: white;
-    display: block;
-    margin-left: 10%;
-    width: 70%;
-    border-bottom: 1px solid white;
-    text-align: center;
-    padding-top: 15px;
+  content: "Education";
+  color: white;
+  display: block;
+  width: 250px;
+  border-bottom: 1px solid white;
+  text-align: center;
+  margin: auto;
 }
 
 .side-container-header-4:after {
-    content: "Skills";
-    color: white;
-    display: block;
-    margin-left: 10%;
-    width: 70%;
-    border-bottom: 1px solid white;
-    text-align: center;
-    padding-top: 15px;
+  content: "Skills";
+  color: white;
+  display: block;
+  width: 250px;
+  border-bottom: 1px solid white;
+  text-align: center;
+  margin: auto;
 }
 
 .contact {
-    color: white;
-    margin-left: 15px;
+  color: white;
 }
 
 .contact-list {
-    margin-left: 10%;
-    list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  line-height: 30px;
+  font-family: "EB Garamond", serif;
 }
 
-.languages {
-    color: white;
-    margin-left: 15px;
+.contact-list-item {
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+  gap: 10px;
 }
 
-.languages-list {
-    color: white;
-    display: block;
-    list-style: circle;
-    margin-left: 15%;
+.contact-icon {
+  color: white;
+  font-size: 24px;
 }
 
-.education {
-    color: white;
-    margin-left: 15px;
-}
-
-.education-info {
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-bottom: 0;
-}
-
-.education-list {
-    display: block;
-    color: white;
-    list-style: circle;
-    margin-left: 15%;
-    margin-right: 15%;
-}
-
-.skills {
-    color: white;
-    margin-left: 15px;
-}
-
-.skills-list {
-    display: block;
-    list-style: circle;
-    margin-left: 15%;
-    padding-bottom: 15%;
+.contact-method {
+  color: white;
+  margin-bottom: 0;
 }
 
 .links {
-    color: white;
+  text-decoration: none;
+}
+
+.languages {
+  color: white;
+}
+
+.languages-list {
+  color: white;
+  list-style: circle;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding-left: 70px;
+  line-height: 25px;
+}
+
+.education {
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.education-info {
+  width: 225px;
+  margin: auto;
+}
+
+.education-list {
+  display: block;
+  color: white;
+  list-style: circle;
+  padding-left: 70px;
+  margin-bottom: 25px;
+  line-height: 25px;
+}
+
+.skills {
+  color: white;
+}
+
+.skills-list {
+  display: block;
+  list-style: circle;
+  width: 300px;
+  padding-left: 70px;
+  line-height: 25px;
 }
 
 .title {
-    font-weight: bold;
-    padding-top: 50px;
-    display: block;
-    width: 100%;
-    text-align: center;
-    letter-spacing: 2.5px;
+  font-weight: bold;
+  padding-top: 50px;
+  display: block;
+  width: 100%;
+  text-align: center;
+  letter-spacing: 2.5px;
 }
 
 .heading-titles {
-    margin-left: 10%;
-    border-bottom: 1px solid black;
-    width: 80%;
-    text-align: center;
-    letter-spacing: 1.5px;
+  border-bottom: 1.5px solid #163853;
+  width: 600px;
+  text-align: center;
+  letter-spacing: 1.5px;
+  padding-bottom: 5px;
 }
 
-.projects-list {
-    width: 80%;
-}
-
-.work-experience-position-title {
-    margin-left: 12%;
+.work-experience-container {
+  width: 600px;
 }
 
 .work-info-list {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    list-style: none;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-.work-info-grid-item-1 {
-    list-style: none;
-}
-
-.work-info-grid-item-2 {
-    text-align: right;
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+  height: 25px;
+  margin-bottom: 5px;
 }
 
 .profile-content {
-    margin-left: 15%;
-    width: 70%;
-    text-align: center;
+  width: 600px;
+  text-align: center;
 }
 
 .work-description {
-    list-style: circle;
-    margin-left: 15%;
-    width: 70%;
+  list-style: circle;
+  width: 600px;
 }
 
 .links-main {
-    color: #163853;
+  color: #163853;
+  text-decoration: none;
+}
+
+@media print {
+  @page {
+    margin: 0;
+  }
 }
