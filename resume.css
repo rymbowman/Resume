@@ -160,7 +160,7 @@
 
 .heading-titles {
   border-bottom: 1.5px solid #163853;
-  width: 700px;
+  width: 725px;
   text-align: center;
   letter-spacing: 1.5px;
   margin-top: 15px;
@@ -170,25 +170,25 @@
 }
 
 .work-experience-container {
-  width: 700px;
+  width: 725px;
 }
 
 .work-info-list {
   display: flex;
   justify-content: space-between;
-  width: 700px;
+  width: 725px;
   height: 25px;
   margin-bottom: 5px;
 }
 
 .profile-content {
-  width: 700px;
+  width: 725px;
   text-align: center;
 }
 
 .work-description {
   list-style: circle;
-  width: 700px;
+  width: 725px;
 }
 
 .links-main {
